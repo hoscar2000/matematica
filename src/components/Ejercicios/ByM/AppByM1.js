@@ -37,14 +37,11 @@ export default function StickyFooter(props) {
 
         </div>
       </Container>
-
       <footer className={classes.footer}>
         <Container maxWidth="sm">
           <App />
           <Button className={classes.boton} variant="contained" onClick={() => props.history.go(-1)}>Salir</Button>
-          <Typography variant="body1">Grupo 5.</Typography>
-          <Copyright />
-        </Container>
+          </Container>
       </footer>
     </div>
   );
@@ -88,7 +85,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={cienpesos} />
+        <img src={cienpesos}/>
         <h5>+</h5>
         <img src={cincuentapesos} />
         <h5>+</h5>

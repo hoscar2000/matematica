@@ -25,7 +25,7 @@ export default function StickyFooter(props) {
           Billetes y Monedas 
         </Typography>
         <Typography variant="h6" component="h6" gutterBottom>
-          {'Con el billete, cuantas golosinas puedo comprar ???'}
+          {'Con ese billete, ¿Cuántas golosinas puedo comprar ?'}
         </Typography>
         <TextField id="outlined-basic" label="Cantidad" variant="outlined" />
         <div>
@@ -40,9 +40,8 @@ export default function StickyFooter(props) {
       <footer className={classes.footer}>
         <Container maxWidth="sm">
         <App />
-          <Button className={classes.boton} variant="contained" onClick={() => props.history.go(-1)}>Salir</Button>
-          <Typography variant="body1">Grupo 5.</Typography>
-          <Copyright />
+        <p></p>
+        <Button className={classes.boton} variant="contained" onClick={() => props.history.go(-1)}>Salir</Button>
         </Container>
       </footer>
     </div>
@@ -88,9 +87,8 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={cienpesos}/>
-        {/* <h5></h5> */}
+        <p></p>
         <img src={gol1}/>
-        
       </header>
    </div>
   );
